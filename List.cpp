@@ -1,12 +1,12 @@
 
 #include "StdAfx.h"
-#include <iostream>
+#include <iostream> //
 #include "List.h"
 
 using namespace std;
 
 List::List(void)
-{size = 0;}
+{size = 0;}//
 
 
 List::~List(void)
@@ -14,7 +14,7 @@ List::~List(void)
 }
 
 bool List::IsEmpty () { return size==0;}
-bool List::IsFull () {return (size == MaxSize); }
+bool List::IsFull () {return (size == MaxSize); }//
 
 void List::Insert (DataType e)
 {

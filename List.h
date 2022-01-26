@@ -12,11 +12,11 @@ int size;
 DataType Item [MaxSize];
 
 public:
-List(void); //constructor -- can be overloaded; not a member function
+List(void); //constructor -- can be overloaded; not a member function//
 ~List(void);
 // data members - usually public, some may be private
 	
-bool IsEmpty ();
+bool IsEmpty ();//
 bool IsFull  ();
 void  Insert (DataType);
 void  Delete (DataType); 
