@@ -1,5 +1,5 @@
 #pragma once
-
+//qwerty
 const int MaxSize = 15;
 typedef  int DataType;
 
